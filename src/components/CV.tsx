@@ -26,10 +26,10 @@ const CV = () => {
         <div className="px-9 py-5 print:px-8 print:py-4">
           {/* ============ HEADER ============ */}
           <div className="text-center pb-2.5 mb-3 border-b-[1.5px] border-black">
-            <h1 className="text-[20px] font-bold uppercase tracking-[4px] leading-tight">
+            <h1 className="text-[20px] font-bold uppercase tracking-[3px] leading-tight">
               Ahmed El Naggar
             </h1>
-            <p className="text-[11.5px] mt-0.5 tracking-[1.5px]">
+            <p className="text-[11.5px] mt-0.5 tracking-[1px]">
               Front-End Developer
             </p>
             <p className="text-[10px] mt-1.5 text-gray-700">
@@ -52,7 +52,7 @@ const CV = () => {
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                github.com/ahmedaaaa111
+                GitHub
               </a>
               &nbsp;·&nbsp;
               <a
@@ -61,16 +61,16 @@ const CV = () => {
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                linkedin.com/in/AhmedElnaggar
+                LinkedIn
               </a>
               &nbsp;·&nbsp;
               <a
-                href="https://your-portfolio.vercel.app"
+                href="https://my-portfolio-313m4x5yu-ahmedaaaa111s-projects.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline font-bold"
+                className="hover:underline"
               >
-                your-portfolio.vercel.app ↗
+                Portfolio
               </a>
             </p>
           </div>
@@ -79,14 +79,14 @@ const CV = () => {
           <section className="mb-2.5">
             <SectionTitle>Summary</SectionTitle>
             <p className="text-[10px] leading-[1.5] text-justify">
-              Front-End Developer with a BSc in Informatics and 6+ months of
-              freelance experience delivering 5+ responsive web applications.
-              Proficient in React, Next.js, TypeScript, and Tailwind CSS. Achieved
-              40% faster page loads through performance optimization and 95+
-              Lighthouse scores. Experienced with 3D web (Three.js), animation
-              libraries (GSAP, Framer Motion), and RESTful API integration.
-              Multilingual professional (Arabic, English, Czech) bringing
-              cross-cultural perspective to international teams.
+              Front-End Developer with a BSc in Informatics and hands-on
+              experience building responsive web applications using React,
+              Next.js, TypeScript, and Tailwind CSS. I enjoy turning ideas and
+              designs into clean, user-friendly interfaces and improving website
+              performance across desktop and mobile devices. I have also worked
+              with APIs, animations, and modern frontend tools, and I am
+              currently looking for a junior frontend role where I can continue
+              learning and contribute to real projects.
             </p>
           </section>
 
@@ -107,7 +107,7 @@ const CV = () => {
                   <td className="font-bold pr-3 py-[1px] align-top whitespace-nowrap">
                     Frameworks:
                   </td>
-                  <td className="py-[1px]">React.js, Next.js 14</td>
+                  <td className="py-[1px]">React.js, Next.js</td>
                 </tr>
                 <tr>
                   <td className="font-bold pr-3 py-[1px] align-top whitespace-nowrap">
@@ -130,7 +130,7 @@ const CV = () => {
                     APIs & Data:
                   </td>
                   <td className="py-[1px]">
-                    RESTful APIs, Axios, Fetch API, JSON
+                    REST APIs, Axios, Fetch API, JSON
                   </td>
                 </tr>
                 <tr>
@@ -146,7 +146,7 @@ const CV = () => {
                     Methodologies:
                   </td>
                   <td className="py-[1px]">
-                    Responsive Design, Mobile-First, Agile, Cross-Browser Testing
+                    Responsive Design, Mobile-First Design, Cross-Browser Testing
                   </td>
                 </tr>
               </tbody>
@@ -162,7 +162,7 @@ const CV = () => {
               <div className="flex justify-between items-baseline">
                 <p className="text-[10px]">
                   <B>Adasa Blog</B>
-                  <span className="italic text-gray-600">
+                  <span className="text-gray-600">
                     {" — React.js · JavaScript · CSS · GSAP"}
                   </span>
                 </p>
@@ -173,7 +173,7 @@ const CV = () => {
                     rel="noopener noreferrer"
                     className="hover:underline"
                   >
-                    Live ↗
+                    Live
                   </a>
                   {" · "}
                   <a
@@ -182,22 +182,22 @@ const CV = () => {
                     rel="noopener noreferrer"
                     className="hover:underline"
                   >
-                    GitHub ↗
+                    GitHub
                   </a>
                 </p>
               </div>
               <ul className="text-[10px] ml-3.5 list-disc leading-[1.5] mt-0.5">
                 <li>
-                  Built a responsive blog platform with dynamic content rendering
-                  and GSAP scroll animations, serving 200+ monthly visitors
+                  Built a responsive blog website using React and CSS with smooth
+                  scrolling animations using GSAP
                 </li>
                 <li>
-                  Created 10+ reusable React components with clean architecture,
-                  reducing future dev time by 35%
+                  Created reusable components to keep the code organized and
+                  easier to maintain
                 </li>
                 <li>
-                  Implemented SEO-friendly semantic HTML and mobile-first design
-                  for cross-browser consistency
+                  Improved mobile responsiveness and used semantic HTML for
+                  better structure and accessibility
                 </li>
               </ul>
             </div>
@@ -207,7 +207,7 @@ const CV = () => {
               <div className="flex justify-between items-baseline">
                 <p className="text-[10px]">
                   <B>Developer Portfolio</B>
-                  <span className="italic text-gray-600">
+                  <span className="text-gray-600">
                     {" — Next.js · TypeScript · Three.js · Framer Motion"}
                   </span>
                 </p>
@@ -218,7 +218,7 @@ const CV = () => {
                     rel="noopener noreferrer"
                     className="hover:underline"
                   >
-                    Live ↗
+                    Live
                   </a>
                   {" · "}
                   <a
@@ -227,22 +227,23 @@ const CV = () => {
                     rel="noopener noreferrer"
                     className="hover:underline"
                   >
-                    GitHub ↗
+                    GitHub
                   </a>
                 </p>
               </div>
               <ul className="text-[10px] ml-3.5 list-disc leading-[1.5] mt-0.5">
                 <li>
-                  Built an interactive 3D portfolio with Next.js 14, Three.js, and
-                  15+ Framer Motion animations, scoring 98 on Lighthouse
+                  Developed a personal portfolio using Next.js, TypeScript,
+                  Three.js, and Framer Motion to showcase projects and frontend
+                  skills
                 </li>
                 <li>
-                  Implemented particle effects, custom cursor, auto-typing, and
-                  fully responsive dark-themed design
+                  Added interactive UI features such as animations, a custom
+                  cursor, and responsive dark-themed styling
                 </li>
                 <li>
-                  Optimized asset loading with lazy loading and code splitting,
-                  achieving sub-2-second load times
+                  Focused on performance by optimizing assets, lazy loading
+                  components, and improving page speed
                 </li>
               </ul>
             </div>
@@ -252,51 +253,20 @@ const CV = () => {
               <div className="flex justify-between items-baseline">
                 <p className="text-[10px]">
                   <B>Social Media Platform</B>
-                  <span className="italic text-gray-600">
+                  <span className="text-gray-600">
                     {" — React.js · TypeScript · Tailwind CSS · REST API"}
                   </span>
                 </p>
-                <p className="text-[9.5px] italic">In Development — 80%</p>
+                <p className="text-[9.5px]">In Development</p>
               </div>
               <ul className="text-[10px] ml-3.5 list-disc leading-[1.5] mt-0.5">
                 <li>
-                  Building a full-stack social app with JWT auth, CRUD
-                  posts/comments, user profiles, and REST API integration
+                  Currently building a social media web app with authentication,
+                  posts, comments, and user profile features
                 </li>
                 <li>
-                  Designing a fully responsive UI with Tailwind CSS following
-                  atomic design principles
-                </li>
-              </ul>
-            </div>
-
-            {/* Project 4 — Weather Dashboard */}
-            <div className="mb-1.5">
-              <div className="flex justify-between items-baseline">
-                <p className="text-[10px]">
-                  <B>Weather Dashboard</B>
-                  <span className="italic text-gray-600">
-                    {" — React.js · Tailwind CSS · REST API"}
-                  </span>
-                </p>
-                <p className="text-[9.5px] whitespace-nowrap">
-                  <a href="#" className="hover:underline">
-                    Live ↗
-                  </a>
-                  {" · "}
-                  <a href="#" className="hover:underline">
-                    GitHub ↗
-                  </a>
-                </p>
-              </div>
-              <ul className="text-[10px] ml-3.5 list-disc leading-[1.5] mt-0.5">
-                <li>
-                  Built a real-time weather app consuming OpenWeatherMap API with
-                  location search and 5-day forecasts
-                </li>
-                <li>
-                  Added local storage caching to reduce API calls by 60% and
-                  dynamic theming based on conditions
+                  Using React, TypeScript, Tailwind CSS, and REST APIs to create
+                  a responsive and clean user interface
                 </li>
               </ul>
             </div>
@@ -311,7 +281,7 @@ const CV = () => {
               <div className="flex justify-between items-baseline">
                 <p className="text-[10px]">
                   <B>Freelance Front-End Developer</B>
-                  <span className="italic text-gray-600">
+                  <span className="text-gray-600">
                     {" — Self-employed, Prague"}
                   </span>
                 </p>
@@ -319,24 +289,24 @@ const CV = () => {
               </div>
               <ul className="text-[10px] ml-3.5 list-disc leading-[1.5] mt-0.5">
                 <li>
-                  Delivered 5+ client projects using React, TypeScript, and
-                  Tailwind CSS with 100% on-time delivery rate
+                  Built responsive websites and web interfaces for clients using
+                  React, TypeScript, and Tailwind CSS
                 </li>
                 <li>
-                  Reduced page load times by 40% via code splitting, lazy loading,
-                  and image optimization
+                  Turned design ideas and requirements into functional and
+                  user-friendly pages
                 </li>
                 <li>
-                  Translated UI/UX mockups into pixel-perfect responsive websites
-                  with 95+ Lighthouse scores
+                  Improved performance using techniques such as lazy loading,
+                  code splitting, and image optimization
                 </li>
                 <li>
-                  Managed full project lifecycles with Git/GitHub and CI/CD
-                  deployment to Vercel
+                  Used Git, GitHub, and Vercel to manage code, deployments, and
+                  project updates
                 </li>
                 <li>
-                  Ensured cross-browser compatibility across Chrome, Firefox,
-                  Safari, and Edge
+                  Tested websites across different browsers and screen sizes to
+                  ensure consistent behavior
                 </li>
               </ul>
             </div>
@@ -346,7 +316,7 @@ const CV = () => {
               <div className="flex justify-between items-baseline">
                 <p className="text-[10px]">
                   <B>Linguistic QA Tester</B>
-                  <span className="italic text-gray-600">
+                  <span className="text-gray-600">
                     {" — TransPerfect (Amazon CJQA), Prague"}
                   </span>
                 </p>
@@ -354,16 +324,16 @@ const CV = () => {
               </div>
               <ul className="text-[10px] ml-3.5 list-disc leading-[1.5] mt-0.5">
                 <li>
-                  Identified and documented 50+ content bugs using structured QA
-                  processes, improving quality by 30%
+                  Reviewed content for language quality, formatting issues, and
+                  overall clarity
                 </li>
                 <li>
-                  Collaborated with international teams across 3 time zones to
-                  deliver localized content
+                  Reported bugs and inconsistencies using structured QA
+                  processes
                 </li>
                 <li>
-                  Ensured content accuracy, clarity, and cultural appropriateness
-                  per global standards
+                  Worked with international teams to support accurate and
+                  culturally appropriate localized content
                 </li>
               </ul>
             </div>
@@ -374,8 +344,8 @@ const CV = () => {
             <SectionTitle>Education</SectionTitle>
             <div className="flex justify-between items-baseline">
               <p className="text-[10px]">
-                <B>BSc Informatics</B>
-                <span className="italic text-gray-600">
+                <B>BSc in Informatics</B>
+                <span className="text-gray-600">
                   {" — Czech University of Life Sciences Prague"}
                 </span>
               </p>
@@ -383,8 +353,8 @@ const CV = () => {
             </div>
             <p className="text-[10px] leading-[1.5] mt-0.5 ml-3.5">
               <B>Thesis:</B> Impact of IT on Economic Growth &nbsp;·&nbsp;
-              <B>Coursework:</B> Frontend Dev, Web Technologies, Databases,
-              Software Engineering
+              <B>Coursework:</B> Frontend Development, Web Technologies,
+              Databases, Software Engineering
             </p>
           </section>
 
@@ -400,33 +370,25 @@ const CV = () => {
                       <td className="pr-2 py-[1px]">
                         <B>Responsive Web Design</B>
                       </td>
-                      <td className="py-[1px] italic text-gray-500">
-                        freeCodeCamp
-                      </td>
+                      <td className="py-[1px] text-gray-500">freeCodeCamp</td>
                     </tr>
                     <tr>
                       <td className="pr-2 py-[1px]">
                         <B>JavaScript Algorithms</B>
                       </td>
-                      <td className="py-[1px] italic text-gray-500">
-                        freeCodeCamp
-                      </td>
+                      <td className="py-[1px] text-gray-500">freeCodeCamp</td>
                     </tr>
                     <tr>
                       <td className="pr-2 py-[1px]">
                         <B>Frontend Libraries</B>
                       </td>
-                      <td className="py-[1px] italic text-gray-500">
-                        freeCodeCamp
-                      </td>
+                      <td className="py-[1px] text-gray-500">freeCodeCamp</td>
                     </tr>
                     <tr>
                       <td className="pr-2 py-[1px]">
                         <B>Git & GitHub</B>
                       </td>
-                      <td className="py-[1px] italic text-gray-500">
-                        Coursera
-                      </td>
+                      <td className="py-[1px] text-gray-500">Coursera</td>
                     </tr>
                   </tbody>
                 </table>
@@ -469,7 +431,7 @@ const CV = () => {
 
 const SectionTitle = ({ children }: { children: React.ReactNode }) => (
   <h2
-    className="text-[10px] font-bold uppercase tracking-[2.5px] mb-1.5 pb-[2px]"
+    className="text-[10px] font-bold uppercase tracking-[2px] mb-1.5 pb-[2px]"
     style={{ borderBottom: "1px solid #000" }}
   >
     {children}
